@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    font-family: "Libre Franklin",sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+pre{
+    margin: 0;
+}
+/* Start section navbaer*/
+.navbar-brand{
+    margin-right: 4rem;
+}
+.navbar-light .navbar-brand{
+    color: #379392;
+    font-size: 35px;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand span{
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #379392;
+    transition: all 0.3s;
+    
+}
+/* End section navbar */
+
+/* Start section product */ 
+
+.product{
+    background-color: #f8f9fa;
+    
+}
+.product .gallery{
+    padding-top: 40px;
+}
+.product .gallery .image-gallery{
+    margin-right: 10px ;
+}
+@media (max-width: 767.98px){ 
+    .product .gallery .image-gallery li{
+        display: inline;
+    }
+    .product .gallery .image-gallery .img-fluid{
+        max-width: 24% !important;
+    }
+    .product .gallery .image-show{
+        margin-bottom: 15px;
+    }
+ }
+.product .gallery .image-gallery .img-fluid{
+    max-width: 135%;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.product .gallery .text-gellary i{
+    font-size: 13px;
+    color: #ffc107;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+.product .gallery .text-gellary h1{
+    font-weight: 700;
+    margin-top: 15px;
+}
+.product .gallery .text-gellary .price{
+    font-size: 28px;
+    font-weight: 300;
+    color: #6c757d;
+    margin: 15px 0;
+}
+.product .gallery .text-gellary .info{
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c757d;
+    margin: 15px 0 20px;
+}
+.product .gallery .text-gellary .quantity{
+    margin-top: 15px;
+}
+.product .gallery .text-gellary .quantity label{
+    background-color: #fff;
+    padding: 10px;
+}
+.product .gallery .text-gellary .quantity input{
+    padding: 10px;
+    border: none;
+    position: relative;
+    left: -4px;
+    outline: none;
+}
+.product .gallery .text-gellary .quantity .submit1{
+    width: 120px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.9);
+    outline: none;
+    position: relative;
+    left: -8px;
+}
+.product .gallery .text-gellary .quantity .submit1:hover{
+    background-color: rgba(0,0,0,1);
+
+}
+.product .gallery .text-gellary .wish{
+    margin: 15px 0; 
+}
+.product .gallery .text-gellary .wish i{
+    color: black;
+    font-size: 16px;
+}
+.product .gallery .text-gellary .wish a{
+    color: black;
+    font-size: 16px;
+}
+/* End section product */
+
+/* Start section tabs-content */
+.tabs-content {
+    padding-top: 4em;
+}
+.tabs-content li{
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.tabs-content li:hover{
+    color: #fff;
+    background-color: black;
+}
+.active{
+    color: #fff;
+    background-color: black !important;
+}
+.tabs-content .tab-content{
+    padding: 30px 0 40px 40px;
+    background-color: #fff;
+}
+.tabs-content .tab-content h5{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.tabs-content .tab-content p{
+    font-size: 14px;
+    color: rgb(148, 148, 148);
+}
+.tabs-content div:not(:first-of-type){
+    display: none;
+}
+
+/* End section tabs-content */
+
+/* start secton raleted product */
+.top-product{
+    padding: 60px 0;
+}
+.top-product h2{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.top-product .card-item{
+    position: relative;
+}
+.top-product img{
+    width: 100%;
+    margin-bottom: 15px;
+    filter: grayscale(40%);
+    transition: all 0.2s ease-in-out;
+
+}
+.top-product .link-item{
+    color: #000;
+    text-decoration: none;
+}
+.top-product .link-item:hover{
+    color: #379392;
+    transition: all 0.5s ease-in-out;
+}
+.top-product .link-item h6{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+.top-product .card-item p{
+    color: #6c757d;
+    font-size: 14px;
+
+}
+.top-product .card-item:hover .button-item{
+    opacity: 1;
+}
+
+.top-product .button-item {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    width: 100%;  
+    opacity: 0;
+    transition: all 0.4s;
+
+}
+.top-product .button-item li{
+    display: inline;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 ;
+    border: 1px solid #000;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.top-product .button-item li:hover{
+    background-color: #000;
+}
+.top-product .button-item li:hover a{
+    color: #fff;
+}
+.top-product .button-item li a{
+    color: #000;
+
+}
+.top-product .button-item .half{
+    color: #fff;
+    background-color: #000;
+}
+.top-product .button-item .half a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* End secton raleted product */
+
+/* Start section fotter */
+
+.fotter{
+    background-color: #111;
+}
+.fotter .item h3{
+    padding: 70px 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.fotter .item li{
+    padding-bottom: 6px;
+}
+.fotter .item a{
+    color: #6c757d;
+    font-size: 13px;
+    text-decoration: none;
+}
+.fotter .item a:hover{
+    color: #f8f9fa;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.fotter .created{
+    margin-top: 50px;
+    border-top: 2px solid #1d1d1d;
+}
+.fotter .created p{
+    padding: 20px 0 10px;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+/* End section fotter */

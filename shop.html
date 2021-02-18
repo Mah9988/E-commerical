@@ -1,0 +1,325 @@
+<html>
+    <head>
+        <title>M-Store</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/shop.css">
+    </head>
+    <body>
+        <div class="container">
+            <!--Start Section navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand text-center d-sm-inline d-lg-none" href="home.html">M<span>~Store</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="product.html">Product detail</a> </li>
+                    </ul>
+                    <a class="navbar-brand text-center d-none d-lg-inline" href="home.html">M<span>~Store</span></a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i> Login</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart ( 0 )</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-heart"></i>  ( 0 )</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!--End Section navbar-->
+            <!--Start section Header-->
+            <section class="header">
+                <div class="navs-header">
+                    <ul>
+                        <li><h1>Shop</h1></li>
+                    </ul>
+                    <ul>
+                        <li><a href="index.html"> Home </a> </li>
+                        <li>/</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+            </section>
+            <!--End section Header-->
+            <!--Start section sort-->
+            <section class="sort text-center">
+                <i class="fas fa-th-large"></i>
+                
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Defualt Sorting
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Popularity</a>
+                      <a class="dropdown-item" href="#">Price : Low To High</a>
+                      <a class="dropdown-item" href="#">Price : High To Low</a>
+                    </div>
+                  </div>
+                  <i class="fas fa-th"></i>
+            </section>
+            <!--End section sort-->
+            <!--Start section item-->
+            <section class="item-shop">
+                <div class="row">
+                    <div class="categories col-12 col-lg-3">
+                        <h4>CATEGORIES</h4>
+                        <h6 style="background-color: black;color: white;"> FASHION & ACC</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="">Women's T-Shirts</a></li>
+                            <li><a href="">Men's T-Shirts</a></li>
+                            <li><a href="">Dresses</a></li>
+                            <li><a href="">Novelty socks</a></li>
+                            <li><a href="">Women's sunglasses</a></li>
+                            <li><a href="">Men's sunglasses</a></li>
+                        </ul>
+                        <h6>HEALTH & BEAUTY</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="">Shavers</a></li>
+                            <li><a href="">bags</a></li>
+                            <li><a href="">Cosmetic</a></li>
+                            <li><a href="">Nail Art</a></li>
+                            <li><a href="">Skin Masks & Peels</a></li>
+                            <li><a href="">Korean cosmetics</a></li>
+                        </ul>
+                        <h6>ELECTRONICS</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="">Electronics</a></li>
+                            <li><a href="">Headphones</a></li>
+                            <li><a href="">Portable speakers</a></li>
+                            <li><a href="">Cell Phone bluetooth headsets</a></li>
+                            <li><a href="">Keyboards</a></li>
+                        </ul>
+                        <div class="range">
+                            <label for="customRange2">Range Price</label>
+                            <input type="range" class="custom-range" min="0" max="2" id="customRange2">
+                            <p style="float: left;">1.00$</p><p style="float: right;">500$</p>
+                        </div>
+                        <div class="show-only">
+                            <p>SHOW ONLY</p>
+                            <form>
+                                <input type="checkbox" id="#1" name="vehicle1" value="Bike">
+                                <label for="v#1"> Returns Accepted</label><br>
+                                <input type="checkbox" id="#2" name="vehicle2" value="Car">
+                                <label for="v#1"> Completed Items</label><br>
+                                <input type="checkbox" id="#3" name="vehicle3" value="Boat">
+                                <label for="v#1"> Sold Items</label><br>
+                                <input type="checkbox" id="#4" name="vehicle3" value="Boat">
+                                <label for="v#1">Deals & Savings</label><br>
+                                <input type="checkbox" id="#5" name="vehicle3" value="Boat">
+                                <label for="v#1">Authorized Seller</label><br><br>
+                            </form>
+                        </div>
+                        <div class="buying-format">
+                            <form>
+                                <p>BUYING FORMAT</p>
+                                <input type="radio" id="#1" name="format" >
+                                <label for="#1">All Listings</label><br>
+                                <input type="radio" id="#2" name="format" >
+                                <label for="#2">Best Offer</label><br>
+                                <input type="radio" id="#3" name="format" >
+                                <label for="#3">Auction</label><br>
+                                <input type="radio" id="#4" name="format" >
+                                <label for="#4">Buy It Now</label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-4 col-lg-3 text-center">
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product1.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product4.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product7.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product10.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-4 col-lg-3 text-center">
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product2.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product5.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product8.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product11.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-4 col-lg-3 text-center">
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product3.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product6.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product9.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                        <div class=" card-item ">
+                            <a href=""><img src="images/product12.jpg" class="img-fluid"></a>
+                            <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                            <p>$250</p>
+                            <div class="button-item"><ul class="list-unstyled">
+                                <li><a href=""><i class="far fa-heart"></i></a></li>
+                                <li class="half"><a href="" >Add To Cart</a></li>
+                                <li><a href=""><i class="fas fa-expand"></i></a></li>
+                            </ul></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End section item-->
+            <!--start section page-nav-->
+            <section class="page-nav">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" style="padding-top:12px" ><i class="fas fa-backward"></i></a>
+                    </li>
+                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" style="padding-top:12px"><i class="fas fa-forward" ></i></a>
+                    </li>
+                    </ul>
+                </nav>
+            </section>
+              <!--start section page-nav-->
+            </div>
+             <!--Start section fotter-->
+     <section class="fotter ">
+        <div class="container">
+            <div class="row">
+                <div class="item col-12 col-md-4">
+                    <h3 >CUSTOMER SERVICES</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Help & Contact Us</a></li>
+                        <li><a href="">Returns & Refunds</a></li>
+                        <li><a href=""> Online Stores</a></li>
+                        <li><a href=""> Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="item col-12 col-md-4">
+                    <h3 >COMPANY</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""> What We Do</a></li>
+                        <li><a href="">Available Services</a></li>
+                        <li><a href="">Latest Posts</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="item col-12 col-md-4">
+                    <h3 >SOCIAL MEDIA</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href=""> Instagram</a></li>
+                        <li><a href=""> Tumblr</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="created col-12 text-center">
+                <p>Designd By Mahmoud odeh </p>
+            </div>
+        </div>
+    </section>
+    <!--End section fotter-->
+            
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/js.js"></script>
+    </body>
+</html>

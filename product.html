@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <title>M-Store</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/product.css">
+    </head>
+    <body>
+        <div class="container">
+            <!--Start Section navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand text-center d-sm-inline d-lg-none" href="home.html">M<span>~Store</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="product.html">Product detail</a> </li>
+                    </ul>
+                    <a class="navbar-brand text-center d-none d-lg-inline" href="home.html">M<span>~Store</span></a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i> Login</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart ( 0 )</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-heart"></i>  ( 0 )</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!--End Section navbar-->
+        </div>
+        <!--Start section product-->
+        <section class="product">
+            <section class="gallery">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="image-gallery col-12 col-md-1">
+                            <ul class="list-unstyled">
+                                <li><img src="images/product5.jpg" alt="" class="img-fluid" id="img1-gallery"></li>
+                                <li><img src="images/product8.jpg" alt="" class="img-fluid"id="img2-gallery"></li>
+                                <li><img src="images/product13.jpg" alt="" class="img-fluid"id="img3-gallery"></li>
+                                <li><img src="images/product14.jpg" alt="" class="img-fluid"id="img4-gallery"></li>
+                            </ul>
+                        </div>
+                        <div class="image-show col-12 col-md-5">
+                            <img src="images/product5.jpg" alt="" class="img-fluid" id="img-show">
+                        </div>
+                        <div class="text-gellary col-12 col-md-5">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <h1>Red digital smartwatch</h1>
+                            <p class="price">$250</p>
+                            <p class="info">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Vestibulum ultricies aliquam convallis.</p>
+                            <div class="quantity">
+                                <label>Quantity</label>
+                                <input type="number" min="0" max="50"/>
+                                <input type="submit" name="submit" value="Add to Cart" class="submit1"/>
+                            </div>
+                            <div class="wish">
+                                <a href=""><i class="far fa-heart"></i> Add To Wish List</a><br>
+                                <a href=""><i class="fas fa-shopping-cart"></i> Add To Cart List</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-content">
+                            <ul class="list-unstyled">
+                                <li id="tab1" class="active">description</li>
+                                <li id="tab2">reviwes</li>
+                            </ul>
+                            <div class="tab-content" id="tab1-content">
+                                <h5>PRODUCT DESCRIPTION</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div  class="tab-content" id="tab2-content">
+                                <h5>PRODUCT REVIWES</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                    </div>
+                    <div class="top-product text-center">
+                        <h2 class="header">Related product</h2>
+                        <div class="row">
+                            <div class=" card-item col-md-3 col-12">
+                                <a href=""><img src="images/product1.jpg" class="img-fluid"></a>
+                                <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                                <p>$250</p>
+                                <div class="button-item"><ul class="list-unstyled">
+                                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    <li class="half"><a href="" >Add To Cart</a></li>
+                                    <li><a href=""><i class="fas fa-expand"></i></a></li>
+                                </ul></div>
+                            </div>
+                            <div class=" card-item col-md-3 col-12">
+                                <a href=""><img src="images/product2.jpg" class="img-fluid"></a>
+                                <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                                <p>$250</p>
+                                <div class="button-item"><ul class="list-unstyled">
+                                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    <li class="half"><a href="" >Add To Cart</a></li>
+                                    <li><a href=""><i class="fas fa-expand"></i></a></li>
+                                </ul></div>
+                            </div>
+                            <div class=" card-item col-md-3 col-12">
+                                <a href=""><img src="images/product3.jpg" class="img-fluid"></a>
+                                <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                                <p>$250</p>
+                                <div class="button-item"><ul class="list-unstyled">
+                                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    <li class="half"><a href="" >Add To Cart</a></li>
+                                    <li><a href=""><i class="fas fa-expand"></i></a></li>
+                                </ul></div>
+                            </div>
+                            <div class=" card-item col-md-3 col-12">
+                                <a href=""><img src="images/product4.jpg" class="img-fluid"></a>
+                                <a href="#" class="link-item"><h6>Kui Ye Chen’s AirPods</h6></a>
+                                <p>$250</p>
+                                <div class="button-item"><ul class="list-unstyled">
+                                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                                    <li class="half"><a href="" >Add To Cart</a></li>
+                                    <li><a href=""><i class="fas fa-expand"></i></a></li>
+                                </ul></div>
+                            </div>
+
+                        </div>
+                    </div>       
+            </section>
+        </section>
+        <!--End section product-->
+        <!--Start section fotter-->
+     <section class="fotter ">
+        <div class="container">
+            <div class="row">
+                <div class="item col-12 col-md-4">
+                    <h3 >CUSTOMER SERVICES</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Help & Contact Us</a></li>
+                        <li><a href="">Returns & Refunds</a></li>
+                        <li><a href=""> Online Stores</a></li>
+                        <li><a href=""> Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="item col-12 col-md-4">
+                    <h3 >COMPANY</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""> What We Do</a></li>
+                        <li><a href="">Available Services</a></li>
+                        <li><a href="">Latest Posts</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="item col-12 col-md-4">
+                    <h3 >SOCIAL MEDIA</h3>
+                    <ul class="list-unstyled">
+                        <li><a href=""> Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href=""> Instagram</a></li>
+                        <li><a href=""> Tumblr</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="created col-12 text-center">
+                <p>Designd By Mahmoud odeh </p>
+            </div>
+        </div>
+    </section>
+    <!--End section fotter-->
+    
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/js.js"></script>
+    </body>
+</html>

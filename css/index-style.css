@@ -1,0 +1,336 @@
+body{
+    margin: 0;
+    font-family: "Libre Franklin",sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+/* Start section navbaer*/
+.navbar-brand{
+    margin-right: 4rem;
+}
+.navbar-light .navbar-brand{
+    color: #379392;
+    font-size: 35px;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand span{
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #379392;
+    transition: all 0.3s;
+    
+}
+/* End section navbar */
+
+/* Start section navbar */
+.header{
+    background: url(../images/header.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.header .info{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.header p{
+    font-size: 12px;
+    color: #6c757d;
+    letter-spacing: 4px;
+}
+.header h2{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    padding-bottom: 15px;
+}
+.header button{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 200px;
+    height: 48px;
+    border: none;
+}
+.header button:hover{
+    background-color: rgba(0, 0, 0, 1);
+    transition: all 0.5s ease-in-out;
+}
+.header button a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* End section Header */
+
+/* Start section categories */ 
+
+.categories {
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+.categories p{
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #6c757d;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+.categories h4{
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 600;
+}
+.categories .img-fluid{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.categories a {
+    display: block;
+    position: relative;
+    color: #343a40;
+    transition: all 0.5s;
+    font-weight: 500;
+    z-index: 0; 
+}
+.categories a:hover{
+    opacity: 0.7;
+}
+
+.categories .categories-item-title{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px rgb(0 0 0 / 7%);
+    font-size: 0.8rem;
+    font-size: 14px;
+    z-index: 1;
+}
+.categories a:hover .categories-item-title{
+    opacity: 1;
+}
+
+/* End section categories */ 
+
+/* Start section top-product */
+.top-product{
+    margin-top: 50px;
+    text-align: center;
+}
+.top-product .p-head{
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: #6c757d;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.top-product .h4-head{
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+.top-product .card-item{
+    position: relative;
+}
+.top-product img{
+    width: 100%;
+    margin-bottom: 15px;
+    filter: grayscale(40%);
+    transition: all 0.2s ease-in-out;
+
+}
+.top-product .link-item{
+    color: #000;
+    text-decoration: none;
+}
+.top-product .link-item:hover{
+    color: #379392;
+    transition: all 0.5s ease-in-out;
+}
+.top-product .link-item h6{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+.top-product .card-item p{
+    color: #6c757d;
+    font-size: 14px;
+
+}
+.top-product .card-item:hover .button-item{
+    opacity: 1;
+}
+
+.top-product .button-item {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    width: 100%;  
+    opacity: 0;
+    transition: all 0.4s;
+
+}
+.top-product .button-item li{
+    display: inline;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0 ;
+    border: 1px solid #000;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.top-product .button-item li:hover{
+    background-color: #000;
+}
+.top-product .button-item li:hover a{
+    color: #fff;
+}
+.top-product .button-item li a{
+    color: #000;
+
+}
+.top-product .button-item .half{
+    color: #fff;
+    background-color: #000;
+}
+.top-product .button-item .half a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* End section top-product      */
+
+/* Start section services */
+
+.services {
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    width: 100%;
+}
+.services .serv-item{
+    margin: 50px 0;
+}
+.services .serv-item i{
+    color: #000;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.services .serv-item h6{
+    font-weight: 600;
+    font-size: 16px;
+}
+.services .serv-item p{
+    font-size: 0.85rem;
+    color: #6c757d
+}
+
+/* End section services */
+
+/* Start section email */
+
+.email{
+    margin: 70px 0;
+}
+.email .left-info h2{
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.email .left-info p{
+    font-size: 0.85rem;
+    color: #6c757d
+}
+.email .right-info .form-control {
+  
+    height: calc(2em + 1rem + 7px);
+
+}
+.email .right-info .btn {
+    width: 9em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.email .right-info .btn:hover{
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+/* End section email*/
+
+/* Start section fotter */
+
+.fotter{
+    background-color: #111;
+}
+.fotter .item h3{
+    padding: 70px 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.fotter .item li{
+    padding-bottom: 6px;
+}
+.fotter .item a{
+    color: #6c757d;
+    font-size: 13px;
+    text-decoration: none;
+}
+.fotter .item a:hover{
+    color: #f8f9fa;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.fotter .created{
+    margin-top: 50px;
+    border-top: 2px solid #1d1d1d;
+}
+.fotter .created p{
+    padding: 20px 0 10px;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+/* End section fotter */
+
+/* Start section top-page-button */
+
+.top-page-button{
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    color: #000;
+    z-index: 99;
+    cursor: pointer;
+    display: none;
+}
+.top-page-button:hover{
+    color: #379392;
+    transition: all 0.3s ease-in-out;
+}
+
+/* End section top-page-button*/
